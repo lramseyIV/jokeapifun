@@ -1,0 +1,7 @@
+{
+    "email_creds": {
+        "email": "youremail@whatever.com",
+        "password": "your_password"
+    },
+    "recipients": ["maybeone@whatever.net", "maybetwo@whatever.com"]
+}
