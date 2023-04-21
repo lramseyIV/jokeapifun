@@ -54,9 +54,9 @@ def extract_joke(result):
         joke_string = result['joke']
     return joke_string
 
-# program execution
-result = make_request()
-joke = extract_joke(result)
-logging.info('Joke Successfully Created')
-send_email(joke)
-logging.info('Joke Email Complete')
+if __name__=='__main__":
+    result = make_request()
+    joke = extract_joke(result)
+    logging.info('Joke Successfully Created')
+    send_email(joke)
+    logging.info('Joke Email Complete')
